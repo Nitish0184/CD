@@ -36,7 +36,7 @@ jobs:
        REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}  
       run: |
          echo "# first line of our report">>report.md
-         echo "## Bar plots" >> >report.md
+         echo "## Bar plots" >> report.md
          echo '![](./bars.png "Bar plot")'>> report.md  
          echo "## line plots">>report.md
          echo '![](./lines.png  "lines plot ")'>> report.md
